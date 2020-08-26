@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>is it...photography ?</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+</head>
+<body>
+
+<header>
+<h2>Is it...photography ?</h2>
+<h2></h2>
+</header>
+
+<footer>
+<h2></h2>
+<h2>a s'ti ekil gnikam m'i</h2>
+<h2>summer collection</h2>
+<h2 class="progress-bar2" id="myBar"></h2>
+</footer>
+
+<div class="container d-flex justify-content-center flex-column">
+<div class="cardn" data-aos="slide-up" data-aos-duration="1400" >
+  <img src="https://res.cloudinary.com/dzqwyqvn9/image/upload/v1597827022/architecture_h0zupw.jpg" alt="">
+<h2 class="title-card " data-aos="slide-up" data-aos-duration="500">01</h2>
+<h2 class="date-card">2018</h2>
+</div>
+<div class="cardn" data-aos="slide-up" data-aos-duration="1400" >
+  <img src="https://res.cloudinary.com/dzqwyqvn9/image/upload/v1597827016/love_szn5jp.jpg" alt="">
+<h2 class="title-card " data-aos="slide-up" data-aos-duration="500">02</h2>
+<h2 class="date-card">2019</h2>
+</div>
+<div class="cardn" data-aos="slide-up" data-aos-duration="1400" >
+  <img src="https://res.cloudinary.com/dzqwyqvn9/image/upload/v1597827023/italy_anw4np.jpg" alt="">
+<h2 class="title-card " data-aos="slide-up" data-aos-duration="500">03</h2>
+<h2 class="date-card">2018</h2>
+</div>
+<div class="cardn" data-aos="slide-up" data-aos-duration="1400" >
+  <img src="https://res.cloudinary.com/dzqwyqvn9/image/upload/v1597827022/art_hluigc.jpg" alt="">
+<h2 class="title-card " data-aos="slide-up" data-aos-duration="500">04</h2>
+<h2 class="date-card">2018</h2>
+</div>
+</div>
+<div class="whitespace"></div>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+<script>
+  window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 82;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+</html>
